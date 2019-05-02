@@ -1,0 +1,32 @@
+.Weaponcard {
+  width: 250px;
+  height: 250px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 10px 12px -5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+.Weaponcard:hover {
+  box-shadow: 5px 20px 22px -5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+
+.Weaponcard img {
+  max-width: 150px;
+  height: auto;
+}
+
+.Weaponcard-title {
+  margin: 0;
+}
+
+.Weaponcard-data {
+  font-size: 80%;
+}

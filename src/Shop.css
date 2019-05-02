@@ -1,0 +1,17 @@
+.Shop-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Shop-damage {
+  color: #fff;
+}
+
+.Shop-winner {
+  color: #2ecc71;
+}
+
+.Shop-looser {
+  color: #e74c3c;
+}
